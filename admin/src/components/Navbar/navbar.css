@@ -1,0 +1,21 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    gap: 70%;
+}
+
+.navbar .logo {
+    width: max(10%, 90px);
+    height: auto;
+}
+
+.navbar .profile {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 20px; /* Adds space between the logo and profile */
+}
